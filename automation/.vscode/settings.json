@@ -1,0 +1,17 @@
+// .vscode/settings.json
+{
+    "python.defaultInterpreterPath": "./venv/Scripts/python",
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "--headed",
+        "-v"
+    ],
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "none",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    }
+}

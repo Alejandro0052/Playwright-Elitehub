@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Pytest: Archivo actual",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "${file}",
+                "-v",
+                "--headed"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Pytest: Test actual",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pytest",
+            "args": [
+                "${file}::${selectedText}",
+                "-v",
+                "--headed"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
