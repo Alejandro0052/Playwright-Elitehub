@@ -1,0 +1,1 @@
+# NuxtJS UI tests package

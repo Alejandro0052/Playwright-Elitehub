@@ -1,0 +1,1 @@
+# NuxtJS pages package
